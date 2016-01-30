@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<h1>Login</h1>
+{% if name %}
+<p>name: {{name}}</p>
+{% else %}
+<p>empty name</p>
+{% endif %}
+{% if password %}
+<p>password: {{password}}</p>
+{% else %}
+<p>empty password</p>
+{% endif %}
+</body>
+</html>
